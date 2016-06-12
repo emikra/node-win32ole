@@ -12,6 +12,9 @@
         'src/ole32core.cpp'
       ],
       'dependencies': [
+      ],
+      'include_dirs': [
+        '<!(node -e "require(\'nan\')")'
       ]
     }
   ]
